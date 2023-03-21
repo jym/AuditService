@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <TargetFrameworks>net7.0;net472</TargetFrameworks>
+	  <RootNamespace>AuditSDK</RootNamespace>
+	  <AssemblyName>AuditSDK</AssemblyName>
+	  <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	  <Version>7.0.4.3</Version>
+	  <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Base.Objects" Version="7.0.4.2" />
+		<PackageReference Include="Microsoft.AspNetCore.Authorization" Version="7.0.4" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />		
+	</ItemGroup>
+
+
+</Project>
